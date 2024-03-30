@@ -1,7 +1,7 @@
 // App.js
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 
 // Components
 import MainPage from './components/MainPage';
@@ -14,7 +14,7 @@ function App() {
   // Removed the useState hook since we no longer need the authenticated state
 
   return (
-    <Router>
+    <HashRouter>
       <Routes>
       <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         <Route path="/images_intro" element={<MainPage />} />
@@ -22,7 +22,7 @@ function App() {
         {/* Add more routes as needed */}
         {/* Example: <Route path="/some_path" element={<SomeComponent />} /> */}
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
