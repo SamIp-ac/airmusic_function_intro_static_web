@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 
 // Components
 import MainPage from './components/MainPage';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route exact path="/">
           {authenticated ? <MainPage /> : <Redirect to="/login" />}
         </Route>
@@ -21,7 +21,7 @@ function App() {
         <Route path="/1_realtime_baby_learning_mode">
           {authenticated ? <RealtimeBabyLearningMode /> : <Redirect to="/login" />}
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   );
 }
