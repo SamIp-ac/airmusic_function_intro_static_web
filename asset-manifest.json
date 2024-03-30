@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/airmusic_function_intro_static_web/static/css/main.fb330d36.css",
-    "main.js": "/airmusic_function_intro_static_web/static/js/main.014aee9a.js",
+    "main.js": "/airmusic_function_intro_static_web/static/js/main.2b6b06c3.js",
     "static/js/453.018e3fc9.chunk.js": "/airmusic_function_intro_static_web/static/js/453.018e3fc9.chunk.js",
     "static/media/realtime_baby_learning_mode.mp4": "/airmusic_function_intro_static_web/static/media/realtime_baby_learning_mode.96e7d9c7b23fdfa059ff.mp4",
     "static/media/drawing_record.png": "/airmusic_function_intro_static_web/static/media/drawing_record.afd4af5eaf9238b12238.png",
     "static/media/main_function_intro.png": "/airmusic_function_intro_static_web/static/media/main_function_intro.6926668ba5340178b432.png",
     "index.html": "/airmusic_function_intro_static_web/index.html",
     "main.fb330d36.css.map": "/airmusic_function_intro_static_web/static/css/main.fb330d36.css.map",
-    "main.014aee9a.js.map": "/airmusic_function_intro_static_web/static/js/main.014aee9a.js.map",
+    "main.2b6b06c3.js.map": "/airmusic_function_intro_static_web/static/js/main.2b6b06c3.js.map",
     "453.018e3fc9.chunk.js.map": "/airmusic_function_intro_static_web/static/js/453.018e3fc9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb330d36.css",
-    "static/js/main.014aee9a.js"
+    "static/js/main.2b6b06c3.js"
   ]
 }
