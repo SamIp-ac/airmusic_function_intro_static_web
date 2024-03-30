@@ -14,7 +14,7 @@ function App() {
   // Removed the useState hook since we no longer need the authenticated state
 
   return (
-    <HashRouter>
+    <Router>
       <Routes>
       <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         <Route path="/images_intro" element={<MainPage />} />
@@ -22,7 +22,7 @@ function App() {
         {/* Add more routes as needed */}
         {/* Example: <Route path="/some_path" element={<SomeComponent />} /> */}
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
