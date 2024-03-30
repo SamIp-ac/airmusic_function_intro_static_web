@@ -14,7 +14,7 @@ function App() {
   // Removed the useState hook since we no longer need the authenticated state
  
   return (
-    <Router basename="/airmusic_function_intro_static_web">
+    <Router>
       <Routes>
       <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         <Route path="/images_intro" element={<MainPage />} />
