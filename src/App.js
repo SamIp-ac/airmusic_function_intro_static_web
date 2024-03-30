@@ -16,10 +16,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="./" element={<MainPage />} />
-        <Route path="./login" element={<Login />} />
-        <Route path="./1_realtime_baby_learning_mode" element={<RealtimeBabyLearningMode />} />
-        <Route path="./airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/1_realtime_baby_learning_mode" element={<RealtimeBabyLearningMode />} />
+        <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         {/* Add more routes as needed */}
         {/* Example: <Route path="/some_path" element={<SomeComponent />} /> */}
       </Routes>
