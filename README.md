@@ -16,3 +16,6 @@ After Push update to GitHub
 ```Shell
 yarn deploy
 ```
+
+### Remark
+#### **If the website no any new change, even build and deployed, please edit the index.html in gh-pages from github directly (like add a space " ")
