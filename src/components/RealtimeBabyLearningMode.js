@@ -1,21 +1,23 @@
-// RealtimeBabyLearningMode.js
 import React, { useState } from 'react';
 import realtime_baby_learning_mode_video from '../mp4/realtime_baby_learning_mode.mp4';
 import '../style/GeneralStyle.css';
 import Sidebar from './Sidebar'; // Import the Sidebar component
 
 function RealtimeBabyLearningMode() {
+  // State to control the sidebar visibility
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  // Function to toggle the sidebar visibility
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
   
   return (
     <div className="main-container">
-        <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-        <div className={`content-container ${isSidebarOpen ? 'shifted' : ''}`}>
-          <button className="menu-button" onClick={toggleSidebar}>☰</button>
+      {/* Pass the state and the toggle function to the Sidebar component */}
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+      <div className={`content-container ${isSidebarOpen ? 'shifted' : ''}`}>
+      <button className="menu-button" onClick={toggleSidebar}>☰</button>
           <h2 className="titleStyle">Showcase</h2>
           <h3 className="titleStyle">Video Demonstrations</h3>
           {/* List of videos to display */}
