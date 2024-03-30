@@ -12,7 +12,7 @@ import AirMusicFunctionIntro from './components/AirMusicFunctionIntro';
 
 function App() {
   // Removed the useState hook since we no longer need the authenticated state
-
+ 
   return (
     <Router>
       <Routes>
