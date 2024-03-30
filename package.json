@@ -2,7 +2,6 @@
   "name": "airmusic_function_intro_static_web",
   "version": "0.1.0",
   "private": true,
-  "git.enableSmartCommit": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://SamIp-ac.github.io/",
+  "homepage": "https://SamIp-ac.github.io/airmusic_function_intro_static_web",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
