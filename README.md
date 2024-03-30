@@ -2,7 +2,14 @@
 
 In the project directory, you can run:
 
-### `yarn start`
+### Start by
+```Shell
+git clone -b main https://github.com/SamIp-ac/airmusic_function_intro_static_web.git
+```
+### run locally 
+```Shell
+yarn start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -18,4 +25,4 @@ yarn deploy
 ```
 
 ### Remark
-#### **If the website no any new change, even build and deployed, please edit the index.html in gh-pages from github directly (like add a space " ")
+#### If the website no any new change, even build and deployed, please edit the index.html in branch -- **gh-pages** from github directly (like add a space " "), Remember to pull git new update
