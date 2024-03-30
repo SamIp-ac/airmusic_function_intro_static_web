@@ -1,0 +1,33 @@
+.titleStyle {
+    padding: 15px;
+}
+
+.imgSize {
+    padding: 20px;
+    width: 1110px;
+    height: auto;
+  }
+
+.videoSize {
+    padding: 20px;
+    width: 300px;
+    height: auto;
+}
+
+/* GeneralStyle.css */
+.main-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px; /* Adjust the width as you see fit */
+    /* Other styles for your sidebar (background, padding, etc.) */
+  }
+  
+  .content-container {
+    flex-grow: 1; /* To ensure it takes up the remaining space */
+    margin-left: 240px; /* This should match the width of your sidebar */
+    padding: 20px; /* Add padding for nicer content layout */
+  }
+  
+  /* Existing styles for titleStyle, imgSize, etc. */
