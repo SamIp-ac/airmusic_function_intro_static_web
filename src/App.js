@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+
+// Components
+import MainPage from './components/MainPage';
+import RealtimeBabyLearningMode from './components/RealtimeBabyLearningMode';
+import Login from './components/Login';
 
 function App() {
+  const [authenticated, setAuthenticated] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          {authenticated ? <MainPage /> : <Redirect to="/login" />}
+        </Route>
+        <Route path="/login">
+          <Login setAuthenticated={setAuthenticated} />
+        </Route>
+        <Route path="/1_realtime_baby_learning_mode">
+          {authenticated ? <RealtimeBabyLearningMode /> : <Redirect to="/login" />}
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
