@@ -9,7 +9,9 @@ const AirMusicFunctionIntro = () => {
     <div className="main-container">
         <Sidebar />
           <div className="content-container">
-        <h1>AirMusic Function Introduction</h1>
+            <h1>AirMusic Function Introduction</h1>
+            <h1 className="titleStyle">AirMusic App frontend Intro</h1>
+            <h6 className="titleStyle">Updated at 30 March 2024 at 11:13:30 PM</h6>
         {/* Content for the introduction page */}
       </div>
     </div>

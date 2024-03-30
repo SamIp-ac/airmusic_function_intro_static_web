@@ -16,9 +16,9 @@ function App() {
   return (
     <Router>
       <Routes>
+      <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         <Route path="/images_intro" element={<MainPage />} />
         <Route path="/realtime_baby_learning_mode" element={<RealtimeBabyLearningMode />} />
-        <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         {/* Add more routes as needed */}
         {/* Example: <Route path="/some_path" element={<SomeComponent />} /> */}
       </Routes>
