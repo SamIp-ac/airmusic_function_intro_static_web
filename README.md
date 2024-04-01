@@ -1,4 +1,4 @@
-[View Web Link](https://samip-ac.github.io/airmusic_function_intro_static_web)
+[View Web Link](https://airmusicfunctionintro-demo.streamlit.app/)
 
 In the project directory, you can run:
 
