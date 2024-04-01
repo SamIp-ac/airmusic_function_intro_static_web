@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, HashRouter } from 're
 // Components
 import MainPage from './components/MainPage';
 import RealtimeBabyLearningMode from './components/RealtimeBabyLearningMode';
-import Login from './components/Login';
+// import Login from './components/Login';
 import AirMusicFunctionIntro from './components/AirMusicFunctionIntro';
 // Add imports for any new components here
 
@@ -14,7 +14,7 @@ function App() {
   // Removed the useState hook since we no longer need the authenticated state
  
   return (
-    <Router>
+    <Router basename='/airmusic_function_intro_static_web'>
       <Routes>
       <Route path="/airmusic_function_intro_static_web" element={<AirMusicFunctionIntro />} />
         <Route path="/images_intro" element={<MainPage />} />

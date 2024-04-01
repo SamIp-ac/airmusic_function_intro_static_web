@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import '../style/GeneralStyle.css';
 import Sidebar from './Sidebar'; // Import the Sidebar component
-
+import Topbar from './Topbar';
 const AirMusicFunctionIntro = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -12,6 +12,7 @@ const AirMusicFunctionIntro = () => {
 
   return (
     <div className="main-container">
+        {/* <Topbar/> */}
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar}/>
         <div className={`content-container ${isSidebarOpen ? 'shifted' : ''}`}>
           <button className="menu-button" onClick={toggleSidebar}>☰</button>
